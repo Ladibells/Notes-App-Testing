@@ -1,8 +1,5 @@
 package com.ladibells.notes_app_testing.core.presentation.util
 
-/**
- * @author Ahmed Guedmioui
- */
 object TestTags {
     // NoteListScreen
     const val ADD_NOTE_FAB = "ADD_NOTE_FAB"

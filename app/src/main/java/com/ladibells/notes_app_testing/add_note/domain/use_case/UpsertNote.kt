@@ -3,9 +3,6 @@ package com.ladibells.notes_app_testing.add_note.domain.use_case
 import com.ladibells.notes_app_testing.core.domain.model.NoteItem
 import com.ladibells.notes_app_testing.core.domain.repository.NoteRepository
 
-/**
- * @author Ahmed Guedmioui
- */
 class UpsertNote(
     private val noteRepository: NoteRepository
 ) {

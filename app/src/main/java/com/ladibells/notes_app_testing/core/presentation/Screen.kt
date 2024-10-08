@@ -1,8 +1,5 @@
 package com.ladibells.notes_app_testing.core.presentation
 
-/**
- * @author Ahmed Guedmioui
- */
 sealed interface Screen {
     @kotlinx.serialization.Serializable
     data object NoteList : Screen

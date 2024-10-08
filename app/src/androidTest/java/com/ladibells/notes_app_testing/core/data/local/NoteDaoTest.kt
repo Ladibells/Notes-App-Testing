@@ -14,9 +14,6 @@ import org.junit.Rule
 import org.junit.Test
 import javax.inject.Inject
 
-/**
- * @author Ahmed Guedmioui
- */
 @HiltAndroidTest
 @SmallTest
 @UninstallModules(AppModule::class)

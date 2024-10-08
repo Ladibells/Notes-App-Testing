@@ -46,10 +46,6 @@ import com.ladibells.notes_app_testing.R
 import com.ladibells.notes_app_testing.core.presentation.util.TestTags
 import kotlinx.coroutines.flow.collectLatest
 
-/**
- * @author Ahmed Guedmioui
- */
-
 @Composable
 fun AddNoteScreen(
     onSave: () -> Unit,

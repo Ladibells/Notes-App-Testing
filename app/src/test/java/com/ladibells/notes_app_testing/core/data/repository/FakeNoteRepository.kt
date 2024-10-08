@@ -3,9 +3,6 @@ package com.ladibells.notes_app_testing.core.data.repository
 import com.ladibells.notes_app_testing.core.domain.model.NoteItem
 import com.ladibells.notes_app_testing.core.domain.repository.NoteRepository
 
-/**
- * @author Ahmed Guedmioui
- */
 class FakeNoteRepository : NoteRepository {
 
     private var noteItems = mutableListOf<NoteItem>()

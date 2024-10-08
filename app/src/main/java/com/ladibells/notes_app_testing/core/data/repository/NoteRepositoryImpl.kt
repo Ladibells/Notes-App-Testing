@@ -7,9 +7,6 @@ import com.ladibells.notes_app_testing.core.data.mapper.toNoteItem
 import com.ladibells.notes_app_testing.core.domain.model.NoteItem
 import com.ladibells.notes_app_testing.core.domain.repository.NoteRepository
 
-/**
- * @author Ahmed Guedmioui
- */
 class NoteRepositoryImpl(
     noteDb: NoteDb
 ) : NoteRepository {

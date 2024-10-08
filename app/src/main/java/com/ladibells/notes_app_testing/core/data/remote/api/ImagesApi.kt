@@ -4,9 +4,6 @@ import com.ladibells.notes_app_testing.core.data.remote.dto.ImageListDto
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-/**
- * @author Ahmed Guedmioui
- */
 interface ImagesApi {
 
     @GET("/api/")

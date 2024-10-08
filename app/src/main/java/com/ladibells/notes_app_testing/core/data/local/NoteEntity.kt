@@ -3,9 +3,6 @@ package com.ladibells.notes_app_testing.core.data.local
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-/**
- * @author Ahmed Guedmioui
- */
 @Entity
 data class NoteEntity(
     var title: String,

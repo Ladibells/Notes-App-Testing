@@ -6,9 +6,6 @@ import com.ladibells.notes_app_testing.core.domain.model.Images
 import com.ladibells.notes_app_testing.core.domain.repository.ImagesRepository
 import javax.inject.Inject
 
-/**
- * @author Ahmed Guedmioui
- */
 class ImagesRepositoryImpl @Inject constructor(
     private val imagesApi: ImagesApi
 ) : ImagesRepository {

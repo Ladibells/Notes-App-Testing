@@ -3,9 +3,6 @@ package com.ladibells.notes_app_testing.core.data.repository
 import com.ladibells.notes_app_testing.core.domain.model.Images
 import com.ladibells.notes_app_testing.core.domain.repository.ImagesRepository
 
-/**
- * @author Ahmed Guedmioui
- */
 class FakeAndroidImagesRepository : ImagesRepository {
 
     private var shouldReturnError = false

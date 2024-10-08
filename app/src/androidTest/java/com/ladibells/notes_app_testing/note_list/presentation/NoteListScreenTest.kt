@@ -18,11 +18,6 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
-
-/**
- * @author Ahmed Guedmioui
- */
-
 @HiltAndroidTest
 @UninstallModules(AppModule::class)
 class NoteListScreenTest {

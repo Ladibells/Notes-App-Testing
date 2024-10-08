@@ -3,10 +3,6 @@ package com.ladibells.notes_app_testing.core.data.mapper
 import com.ladibells.notes_app_testing.core.data.local.NoteEntity
 import com.ladibells.notes_app_testing.core.domain.model.NoteItem
 
-/**
- * @author Ahmed Guedmioui
- */
-
 fun NoteItem.toNoteEntityForInsert(
 ): NoteEntity {
     return NoteEntity(

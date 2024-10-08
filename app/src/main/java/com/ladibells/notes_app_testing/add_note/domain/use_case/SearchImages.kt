@@ -6,9 +6,6 @@ import com.ladibells.notes_app_testing.core.domain.repository.ImagesRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
-/**
- * @author Ahmed Guedmioui
- */
 class SearchImages(
     private val imagesRepository: ImagesRepository
 ) {

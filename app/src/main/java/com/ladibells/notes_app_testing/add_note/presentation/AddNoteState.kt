@@ -1,8 +1,5 @@
 package com.ladibells.notes_app_testing.add_note.presentation
 
-/**
- * @author Ahmed Guedmioui
- */
 data class AddNoteState(
     val imageUrl: String = "",
     val title: String = "",

@@ -1,8 +1,5 @@
 package com.ladibells.notes_app_testing.add_note.presentation
 
-/**
- * @author Ahmed Guedmioui
- */
 sealed interface AddNoteActions {
 
     data class UpdateTitle(val newTitle: String) : AddNoteActions

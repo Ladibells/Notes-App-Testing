@@ -48,10 +48,6 @@ import com.ladibells.notes_app_testing.R
 import com.ladibells.notes_app_testing.core.domain.model.NoteItem
 import com.ladibells.notes_app_testing.core.presentation.util.TestTags
 
-/**
- * @author Ahmed Guedmioui
- */
-
 @Composable
 fun NoteListScreen(
     onNavigateToAddNote: () -> Unit,

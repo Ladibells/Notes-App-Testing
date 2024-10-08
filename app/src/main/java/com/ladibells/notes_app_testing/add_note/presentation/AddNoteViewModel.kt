@@ -16,9 +16,6 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/**
- * @author Ahmed Guedmioui
- */
 @HiltViewModel
 class AddNoteViewModel @Inject constructor(
     private val upsertNote: UpsertNote,
